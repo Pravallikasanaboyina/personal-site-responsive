@@ -170,14 +170,10 @@ body {
     width:300px;
     height:300px;
   }
-  .code-img{
-    margin-left:20px;
-  }
-  .net-img{
-    margin-right:30px;
-  }
+  
 .skills-row{
   margin-bottom: 50px;
+  width:80%;
   text-align: center;
 }
 
@@ -196,6 +192,6 @@ body {
     bottom:80px;
   }
 .skills-row{
-  width:90%;
+  width:80%;
 }
 }
