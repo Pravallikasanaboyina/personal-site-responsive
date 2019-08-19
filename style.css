@@ -1,0 +1,238 @@
+/* tag selectors*/
+body {
+  text-align: center;
+}
+
+body .container-fluid {
+  padding: 3% 5%;
+}
+
+body p {
+  font-size: 1rem;
+  font-family: "Open sans";
+  font-weight: 300;
+}
+
+body a {
+  font-size: 1.2rem;
+}
+
+/******************hr******************/
+.horizontal-lines {
+  border: dotted;
+  border-bottom: none;
+  width: 5%;
+  height: 0;
+  color: #c7f0db;
+  margin: 30px auto;
+}
+
+/******************top section **************/
+#top-section .container-fluid {
+  background-color: #45b29a;
+}
+
+#top-section {
+  background-color: #daf1f9;
+}
+
+.top-div-heading {
+  color: #45b29a;
+  font-family: 'Great Vibes', cursive;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.top-div {
+  background-color: #daf1f9;
+  text-align: center;
+}
+
+.clouds-div {
+   margin: 2% auto;
+}
+
+.top-cloud {
+  position: relative;
+  left: 200px;
+}
+
+.bottom-cloud {
+  position: relative;
+  right: 200px;
+}
+
+.mountain {
+  width: 50%;
+}
+
+#top-section .navbar {
+  background-color: #45b29a;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+#top-section .navbar-brand {
+  font-size: 2.3rem;
+  font-family: 'libre';
+  font-weight: 600;
+}
+
+/************************* profile section *********************/
+.circular {
+  border-radius: 100%;
+}
+
+#profile-section {
+  text-align: center;
+}
+
+/****************** skills section ***********************/
+.skills {
+  width: 70%;
+  margin: 3% auto;
+}
+
+.skills-row {
+  margin: 10% auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+.main-headings {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 5%;
+  color: #45b29a;
+}
+
+.code-img {
+  margin: 0;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.net-img {
+  margin: 0;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skills-headings {
+ margin: 5% auto 2%;
+ font-size: 1.8rem;
+ color: #45b29a;
+ font-family: 'Roboto Slab';
+}
+
+/***************************contact section*******************/
+.contact-div {
+  text-align: center;
+  padding: 2% 10%;
+}
+
+.butn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #234c66);
+  background-image: -moz-linear-gradient(top, #3498db, #234c66);
+  background-image: -ms-linear-gradient(top, #3498db, #234c66);
+  background-image: -o-linear-gradient(top, #3498db, #234c66);
+  background-image: linear-gradient(to bottom, #3498db, #234c66);
+  -webkit-border-radius: 27;
+  -moz-border-radius: 27;
+  border-radius: 27px;
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #45b29a;
+  text-decoration: none;
+  color: white;
+}
+
+/*******************footer section********************/
+.footer-div {
+  text-align: center;
+  background-color: #45b29a;
+  margin: 40px 0 0;
+  padding: 30px 0 10px;
+}
+
+#footer-section .apps {
+  color: white;
+  text-decoration: none;
+}
+
+#footer-section .apps:hover {
+  color: blue;
+}
+
+#footer-section .container-fluid {
+  background-color: #45b29a;
+}
+
+/*********************mediaquery for tab*******************/
+/* skills section */
+@media (max-width:1000px) {
+     .skills {
+    width: 90%;
+  }
+}
+
+/*****************************mediaquery for phone******************/
+@media (max-width: 600px) {
+#top-section .container-fluid{
+  padding:0;
+}
+   .top-cloud {
+    position: relative;
+    left: 120px;
+  }
+
+  .bottom-cloud {
+    position: relative;
+    right: 120px;
+  }
+
+  .mountain {
+    width: 90%;
+  }
+.top-div-heading{
+  font-size: 50px;
+}
+  /* skills section */
+  #skills-section .code-img, .net-img {
+    float: none;
+    width: 200px;
+    height: 200px;
+  }
+
+  .code-img {
+    margin-right: 20px;
+  }
+
+  .net-img {
+    margin-right: 30px;
+  }
+
+  .skills-row {
+    margin-bottom: 50px;
+    width: 90%;
+    text-align: center;
+  }
+/* footer section */
+#footer-section .container-fluid{
+  padding:0;
+}
+
+}
