@@ -196,12 +196,12 @@ body a {
 }
    .top-cloud {
     position: relative;
-    left: 120px;
+    left: 100px;
   }
 
   .bottom-cloud {
     position: relative;
-    right: 120px;
+    right: 100px;
   }
 
   .mountain {
